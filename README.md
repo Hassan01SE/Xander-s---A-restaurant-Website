@@ -9,7 +9,7 @@
      <h2>Menu-Item Page</h2>
     <a href="https://ibb.co/7gcJ0k4"><img src="https://i.ibb.co/B4DVYnN/Web-capture-7-5-2023-233434-127-0-0-1.jpg" alt="Web-capture-7-5-2023-233434-127-0-0-1" border="0"></a>
     <h2>Booking Reservation Page</h2>
-    <a href="https://ibb.co/qjvWNMd"><img src="https://i.ibb.co/SyzdtXP/Web-capture-7-5-2023-233732-127-0-0-1.jpg" alt="Web-capture-7-5-2023-233732-127-0-0-1" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>picture hosting</a><br />
+    <a href="https://ibb.co/qjvWNMd"><img src="https://i.ibb.co/SyzdtXP/Web-capture-7-5-2023-233732-127-0-0-1.jpg" alt="Web-capture-7-5-2023-233732-127-0-0-1" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
     <div>
         <h3>Features</h3>
         <p>Users can access the Restaurant's Menu and Book a dinning reservation!</p>
