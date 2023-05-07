@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section>
+  <article>
+    <h1>Make a reservation</h1>
+
+    <div class="row">
+
+      <div class="column">
+        <form action="" method="post">
+          {% csrf_token %}
+          {{form.as_p}}
+          <input type="submit" id="button">
+        </form>
+      </div>
+
+
+
+      <div class="column">
+        <div class="videowrap">
+          <iframe
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=xanders karachi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+  </article>
+</section>
+{% endblock %}

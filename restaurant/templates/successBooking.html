@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<div>
+    <h1>Your Booking was a success!</h1>
+    <h2>For Name: {{name}} {{lastname}}</h2>
+    <h2>Expected guests: {{count}}</h2>
+
+    <h3>Instructions</h3>
+    <p>
+        {{comment}}
+
+    </p>
+
+    <h2>Your Reservation date is: {{date}}</h2>
+</div>
+
+
+
+{% endblock %}

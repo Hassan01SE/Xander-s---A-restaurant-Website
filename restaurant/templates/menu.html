@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<h1>Menu</h1>
+
+<div class="row">
+    {% for item in menu %}
+    <div class="col-md-3 mt-3 mb-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/restaurant/static/img/menu_items/{{item.name}}.jpg" class="card-img-top" alt="{{ item.name}}"
+                height="190px">
+            <div class="card-body">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text text-muted">Rs {{item.price}}</p>
+                <a href="{% url 'menu_item' pk=item.pk %}" class="btn btn-primary">Read Description</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- <div class="column">
+
+
+    {% for item in menu %}
+    <p>
+
+        <a href="{% url 'menu_item' pk=item.pk %}">
+            {{item.name}}
+        </a>
+
+        <span class="menu-price">
+
+            Rs {{item.price}}
+        </span>
+    </p>
+
+    {% endfor %}
+</div> -->
+
+{% endblock %}

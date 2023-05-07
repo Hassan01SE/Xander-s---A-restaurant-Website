@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+
+    <div class="row">
+
+      <div class="column">
+        <p>
+          Xander’s is a modern gourmet café – the concept is all about simple, fresh ingredients & light meals. You can
+          grab a quick open-faced sandwich, a bowl of pasta, an ‘old school cheeseburger’ or a delicious dessert along
+          with the all day breakfast that we will be serving.
+        </p>
+        <p>
+          The chefs draw inspiration from Italian, Greek, and Turkish culture
+          and have a menu of 12-15 items that they rotate seasonally.
+        </p>
+
+        <p>
+          The restaurant has a rustic and relaxed atmosphere with moderate
+          prices, making it a popular place for a meal any time of the day.
+        </p>
+
+        <p>
+          The cafe’s ambience is minimalistic and vibrant. With Indoor and outdoor seating, WI-FI and the latest lounge
+          music, Xander’s promises to be the perfect place for the city’s younger and older discerning customers to get
+          together.
+        </p>
+
+        <p>
+          Xander’s is a modern gourmet café – the concept is all about simple, fresh ingredients & light meals in a
+          vibrant and minimalistic ambience.
+        </p>
+
+
+      </div>
+
+      <div class="column">
+        <figure class="figure">
+          <img src="{% static 'img/xanders.png' %}" alt="Mario and Adrian" />
+          <figcaption class="figure-caption">
+            DHA Phase 5 branch
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+
+  </article>
+</section>
+{% endblock %}
